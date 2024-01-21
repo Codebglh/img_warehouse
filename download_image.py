@@ -48,8 +48,8 @@ def main():
             continue
         
         image_names.append(filename)
-        downloaded_names.append('https://cdn.jsdelivr.net/gh/bgvioletsky/testaction/'+folder+'/'+filename)  # 将新下载的图片名添加到列表中
-        fileurls.append('https://cdn.jsdelivr.net/gh/bgvioletsky/testaction/'+folder+'/'+filename)  # 将新下载的图片名添加到列表中
+        downloaded_names.append('https://cdn.jsdelivr.net/gh/Codebglh/img_warehouse/'+folder+'/'+filename)  # 将新下载的图片名添加到列表中
+        fileurls.append('https://cdn.jsdelivr.net/gh/Codebglh/img_warehouse/'+folder+'/'+filename)  # 将新下载的图片名添加到列表中
         
         file_path = os.path.join(folder, filename)
         download_image(url, file_path)
