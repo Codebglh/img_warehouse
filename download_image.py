@@ -32,7 +32,7 @@ def main():
     else:
         fileurls = []
     downloaded_names = []  # 新下载的图片名列表
-    i = 20
+    i = 100
     while i > 0:
         time.sleep(1)
         url = 'https://www.dmoe.cc/random.php?return=json'
