@@ -2,9 +2,9 @@ name: Img_Download
 
 
 on:
-  # [push]
-  schedule:
-    - cron: '5 16 * * *'  # 北京时间每天的 00:05 执行
+  [push]
+  # schedule:
+  #   - cron: '5 16 * * *'  # 北京时间每天的 00:05 执行
 jobs:
    Img_download:
         runs-on: ubuntu-latest
