@@ -24,8 +24,7 @@ def write_json(filename, data):
 def main(i):
     now = datetime.now()
     date = now.date()
-    print(date)
-    folder = "str(date)"
+    folder = str(date)
     if not os.path.exists(folder):
         os.makedirs(folder)
 
