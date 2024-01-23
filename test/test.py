@@ -68,7 +68,4 @@ def main(i):
         f.write('# Downloaded Images\n\n')
         f.writelines([f'![]({name})\n```\n{name}\n```\n' for name in downloaded_names])
 
-
-
-if __name__ == '__main__':
-    main(100)
+main(100)
