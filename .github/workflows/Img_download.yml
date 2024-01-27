@@ -28,9 +28,9 @@ jobs:
                 python -m pip install --upgrade pip
                 pip install -r ./requirements.txt
 
-          - name: Run script to download 
-            run: |
-              python ./download_image.py
+          # - name: Run script to download 
+          #   run: |
+          #     python ./download_image.py
           - name: commit
             run: |
                   git config --local user.email "44770157@qq.com"
