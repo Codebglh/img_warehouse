@@ -42,7 +42,7 @@ def main(i):
         turl = requests.get(url, headers=headers).json()
         url = turl['imgurl']
         filename = url.split("/")[-1]
-
+       
         if filename in image_names:
             continue
 
